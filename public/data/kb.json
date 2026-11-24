@@ -1,0 +1,219 @@
+{
+  "_review": "Content must be reviewed by a qualified agronomist before real use.",
+  "_note": "Advice text is stored here per language and spoken verbatim. The LLM may never write advice, pesticide names or doses. Only non-chemical first actions are listed.",
+  "crop": { "en": "chilli", "te": "మిరప", "hi": "मिर्च" },
+  "entries": [
+    {
+      "id": "thrips",
+      "crop": "chilli",
+      "name": { "en": "thrips", "te": "తామర పురుగు", "hi": "थ्रिप्स" },
+      "localNames": {
+        "en": ["thrips"],
+        "te": ["తామర పురుగు", "పచ్చ పురుగు", "తామర దోమ"],
+        "hi": ["थ्रिप्स", "थ्रिप्स कीट"]
+      },
+      "symptoms": {
+        "en": ["leaves curling upward", "small white insects under the leaves", "silvery streaks on the leaves"],
+        "te": ["ఆకులు పైకి ముడుచుకోవడం", "ఆకుల కింద చిన్న తెల్ల పురుగులు", "ఆకులపై వెండి రంగు గీతలు"],
+        "hi": ["पत्ते ऊपर की ओर मुड़ना", "पत्तियों के नीचे छोटे सफेद कीड़े", "पत्तियों पर चांदी जैसी लकीरें"]
+      },
+      "symptomKeys": ["curl", "up", "insect", "white"],
+      "nonChemicalAction": {
+        "en": "Spray neem oil mixed in water on the underside of the leaves this evening.",
+        "te": "ఈరోజు సాయంత్రం ఆకుల అడుగున వేప నూనె కలిపిన నీటిని పిచికారీ చేయండి.",
+        "hi": "आज शाम पत्तियों के नीचे नीम तेल मिले पानी का छिड़काव करें।"
+      },
+      "avoid": {
+        "en": "Do not spray strong chemical pesticides today without advice from an agriculture officer.",
+        "te": "వ్యవసాయ అధికారి సలహా లేకుండా ఈరోజు బలమైన రసాయన మందులు చల్లకండి.",
+        "hi": "कृषि अधिकारी की सलाह के बिना आज तेज़ रासायनिक दवा न छिड़कें।"
+      },
+      "recheckDays": 3,
+      "confidenceHints": ["thrips", "pachcha purugu", "tamara purugu", "తామర", "थ्रिप्स"],
+      "clarify": {
+        "tags": ["up"],
+        "question": {
+          "en": "Are the leaves curling upward?",
+          "te": "ఆకులు పైకి ముడుచుకుంటున్నాయా?",
+          "hi": "क्या पत्ते ऊपर की ओर मुड़ रहे हैं?"
+        }
+      },
+      "answer": {
+        "te": { "likely": "ఇది {problem} లాగా ఉంది. నాకు బాగా నమ్మకం ఉంది.", "unsure": "ఇది {problem} కావచ్చు. నాకు పూర్తిగా నమ్మకం లేదు.", "audioUrl": null },
+        "hi": { "likely": "यह {problem} लगता है। मुझे काफ़ी भरोसा है।", "unsure": "यह {problem} हो सकता है। मुझे पूरा भरोसा नहीं है।", "audioUrl": null },
+        "en": { "likely": "This looks like {problem}. I am fairly sure.", "unsure": "This may be {problem}. I am not fully sure.", "audioUrl": null }
+      }
+    },
+    {
+      "id": "mites",
+      "crop": "chilli",
+      "name": { "en": "mites", "te": "ఎర్ర నల్లి", "hi": "माइट" },
+      "localNames": {
+        "en": ["mites", "red spider mite"],
+        "te": ["ఎర్ర నల్లి", "నల్లి", "ఎర్ర పురుగు"],
+        "hi": ["माइट", "मकड़ी", "लाल मकड़ी"]
+      },
+      "symptoms": {
+        "en": ["leaves curling downward", "bronze or purple leaves", "dry papery leaves"],
+        "te": ["ఆకులు కిందికి ముడుచుకోవడం", "ఆకులు ఎర్రగా లేదా ఊదా రంగులోకి మారడం", "ఆకులు ఎండి కాగితంలా మారడం"],
+        "hi": ["पत्ते नीचे की ओर मुड़ना", "पत्ते लाल या बैंगनी होना", "पत्ते सूखकर कागज जैसे होना"]
+      },
+      "symptomKeys": ["curl", "down", "bronze"],
+      "nonChemicalAction": {
+        "en": "Spray plain water or neem oil on the underside of the leaves this evening.",
+        "te": "ఈరోజు సాయంత్రం ఆకుల అడుగున వేప నూనె లేదా సాధారణ నీళ్లు పిచికారీ చేయండి.",
+        "hi": "आज शाम पत्तियों के नीचे नीम तेल या सादा पानी छिड़कें।"
+      },
+      "avoid": {
+        "en": "Do not mix two chemicals together without advice.",
+        "te": "సలహా లేకుండా రెండు రసాయనాలు కలపకండి.",
+        "hi": "बिना सलाह दो रसायन न मिलाएँ।"
+      },
+      "recheckDays": 3,
+      "confidenceHints": ["mites", "nalli", "erra nalli", "నల్లి", "माइट"],
+      "clarify": {
+        "tags": ["down"],
+        "question": {
+          "en": "Are the leaves curling downward?",
+          "te": "ఆకులు కిందికి ముడుచుకుంటున్నాయా?",
+          "hi": "क्या पत्ते नीचे की ओर मुड़ रहे हैं?"
+        }
+      },
+      "answer": {
+        "te": { "likely": "ఇది {problem} లాగా ఉంది. నాకు బాగా నమ్మకం ఉంది.", "unsure": "ఇది {problem} కావచ్చు. నాకు పూర్తిగా నమ్మకం లేదు.", "audioUrl": null },
+        "hi": { "likely": "यह {problem} लगता है। मुझे काफ़ी भरोसा है।", "unsure": "यह {problem} हो सकता है। मुझे पूरा भरोसा नहीं है।", "audioUrl": null },
+        "en": { "likely": "This looks like {problem}. I am fairly sure.", "unsure": "This may be {problem}. I am not fully sure.", "audioUrl": null }
+      }
+    },
+    {
+      "id": "leaf-curl-virus",
+      "crop": "chilli",
+      "name": { "en": "leaf curl virus", "te": "ఆకు ముడత వైరస్", "hi": "लीफ कर्ल वायरस" },
+      "localNames": {
+        "en": ["leaf curl virus", "virus", "leaf curl"],
+        "te": ["ఆకుముడత", "ఆకు ముడత", "వైరస్"],
+        "hi": ["वायरस", "पत्ती मरोड़", "लीफ कर्ल"]
+      },
+      "symptoms": {
+        "en": ["small yellow new leaves", "plants stunted", "heavy curling with no insects"],
+        "te": ["కొత్త ఆకులు చిన్నగా పసుపుగా ఉండటం", "మొక్కలు ఎదగకపోవడం", "పురుగులు లేకుండా బాగా ముడత పడటం"],
+        "hi": ["नए पत्ते छोटे और पीले", "पौधे बढ़ते नहीं", "कीड़े बिना ज्यादा मुड़ना"]
+      },
+      "symptomKeys": ["curl", "yellow", "stunt"],
+      "nonChemicalAction": {
+        "en": "Pull out badly curled plants and throw them far from the field. Wash your hands after.",
+        "te": "బాగా ముడత పడిన మొక్కలను పీకి పొలానికి దూరంగా వేయండి. తర్వాత చేతులు కడుక్కోండి.",
+        "hi": "ज्यादा मुड़े पौधों को उखाड़कर खेत से दूर फेंकें। बाद में हाथ धोएँ।"
+      },
+      "avoid": {
+        "en": "Do not take seed or seedlings from sick plants.",
+        "te": "జబ్బు మొక్కల నుంచి విత్తనం లేదా నారు తీసుకోకండి.",
+        "hi": "बीमार पौधों से बीज या पौध न लें।"
+      },
+      "recheckDays": 5,
+      "confidenceHints": ["leaf curl", "virus", "vairas", "ఆకుముడత", "वायरस"],
+      "clarify": {
+        "tags": ["stunt"],
+        "question": {
+          "en": "Are the new leaves small and yellow?",
+          "te": "కొత్త ఆకులు చిన్నగా, పసుపుగా ఉన్నాయా?",
+          "hi": "क्या नए पत्ते छोटे और पीले हैं?"
+        }
+      },
+      "answer": {
+        "te": { "likely": "ఇది {problem} లాగా ఉంది. నాకు బాగా నమ్మకం ఉంది.", "unsure": "ఇది {problem} కావచ్చు. నాకు పూర్తిగా నమ్మకం లేదు.", "audioUrl": null },
+        "hi": { "likely": "यह {problem} लगता है। मुझे काफ़ी भरोसा है।", "unsure": "यह {problem} हो सकता है। मुझे पूरा भरोसा नहीं है।", "audioUrl": null },
+        "en": { "likely": "This looks like {problem}. I am fairly sure.", "unsure": "This may be {problem}. I am not fully sure.", "audioUrl": null }
+      }
+    },
+    {
+      "id": "anthracnose",
+      "crop": "chilli",
+      "name": { "en": "anthracnose", "te": "కాయ కుళ్లు తెగులు", "hi": "एन्थ्रेक्नोज" },
+      "localNames": {
+        "en": ["anthracnose", "dieback", "fruit rot"],
+        "te": ["కాయ కుళ్లు", "కాయ కుళ్లు తెగులు"],
+        "hi": ["एन्थ्रेक्नोज", "फल सड़न"]
+      },
+      "symptoms": {
+        "en": ["dark sunken spots on the fruit", "fruits rotting in rain", "spots on stems"],
+        "te": ["కాయలపై నల్లటి గుంతల మచ్చలు", "వర్షంలో కాయలు కుళ్లిపోవడం", "కాండంపై మచ్చలు"],
+        "hi": ["फलों पर काले धंसे धब्बे", "बारिश में फल सड़ना", "तने पर धब्बे"]
+      },
+      "symptomKeys": ["spots", "fruit", "rain"],
+      "nonChemicalAction": {
+        "en": "Pick the spotted fruits and drop them far from the field today.",
+        "te": "ఈరోజే మచ్చలున్న కాయలను కోసి పొలానికి దూరంగా వేయండి.",
+        "hi": "आज ही धब्बे वाले फल तोड़कर खेत से दूर डालें।"
+      },
+      "avoid": {
+        "en": "Do not spray when rain is coming.",
+        "te": "వర్షం వచ్చే సమయంలో మందు చల్లకండి.",
+        "hi": "बारिश आने से पहले छिड़काव न करें।"
+      },
+      "recheckDays": 4,
+      "confidenceHints": ["anthracnose", "kaya kullu", "కాయ కుళ్లు", "एन्थ्रेक्नोज"],
+      "clarify": {
+        "tags": ["spots"],
+        "question": {
+          "en": "Are there dark sunken spots on the fruit?",
+          "te": "కాయలపై నల్లటి గుంతల మచ్చలు ఉన్నాయా?",
+          "hi": "क्या फलों पर काले धंसे धब्बे हैं?"
+        }
+      },
+      "answer": {
+        "te": { "likely": "ఇది {problem} లాగా ఉంది. నాకు బాగా నమ్మకం ఉంది.", "unsure": "ఇది {problem} కావచ్చు. నాకు పూర్తిగా నమ్మకం లేదు.", "audioUrl": null },
+        "hi": { "likely": "यह {problem} लगता है। मुझे काफ़ी भरोसा है।", "unsure": "यह {problem} हो सकता है। मुझे पूरा भरोसा नहीं है।", "audioUrl": null },
+        "en": { "likely": "This looks like {problem}. I am fairly sure.", "unsure": "This may be {problem}. I am not fully sure.", "audioUrl": null }
+      }
+    },
+    {
+      "id": "fruit-borer",
+      "crop": "chilli",
+      "name": { "en": "fruit borer", "te": "కాయ తొలుచు పురుగు", "hi": "फल छेदक" },
+      "localNames": {
+        "en": ["fruit borer", "borer", "caterpillar"],
+        "te": ["కాయతొలుచు", "కాయ తొలుచు పురుగు", "గొంగళి పురుగు"],
+        "hi": ["फल छेदक", "इल्ली", "सूंडी"]
+      },
+      "symptoms": {
+        "en": ["holes in the fruit", "caterpillar inside the fruit", "fruits falling early"],
+        "te": ["కాయలలో రంధ్రాలు", "కాయ లోపల గొంగళి పురుగు", "కాయలు ముందుగానే రాలడం"],
+        "hi": ["फलों में छेद", "फल के अंदर इल्ली", "फल जल्दी गिरना"]
+      },
+      "symptomKeys": ["hole", "fruit", "caterpillar"],
+      "nonChemicalAction": {
+        "en": "Pick the fruits with holes and destroy them today. Do it early in the morning.",
+        "te": "రంధ్రాలున్న కాయలను ఈరోజే కోసి నాశనం చేయండి. ఉదయాన్నే చేయండి.",
+        "hi": "छेद वाले फल आज ही तोड़कर नष्ट करें। सुबह के समय करें।"
+      },
+      "avoid": {
+        "en": "Do not leave damaged fruits on the ground.",
+        "te": "పాడైన కాయలను నేలపై వదలకండి.",
+        "hi": "खराब फल जमीन पर न छोड़ें।"
+      },
+      "recheckDays": 3,
+      "confidenceHints": ["borer", "kaya tulchu", "కాయతొలుచు", "फल छेदक"],
+      "clarify": {
+        "tags": ["hole"],
+        "question": {
+          "en": "Are there holes in the fruit?",
+          "te": "కాయలలో రంధ్రాలు ఉన్నాయా?",
+          "hi": "क्या फलों में छेद हैं?"
+        }
+      },
+      "answer": {
+        "te": { "likely": "ఇది {problem} లాగా ఉంది. నాకు బాగా నమ్మకం ఉంది.", "unsure": "ఇది {problem} కావచ్చు. నాకు పూర్తిగా నమ్మకం లేదు.", "audioUrl": null },
+        "hi": { "likely": "यह {problem} लगता है। मुझे काफ़ी भरोसा है।", "unsure": "यह {problem} हो सकता है। मुझे पूरा भरोसा नहीं है।", "audioUrl": null },
+        "en": { "likely": "This looks like {problem}. I am fairly sure.", "unsure": "This may be {problem}. I am not fully sure.", "audioUrl": null }
+      }
+    }
+  ],
+  "cards": [
+    { "id": "curl", "tags": ["curl"], "labelKey": "curl" },
+    { "id": "yellow", "tags": ["yellow"], "labelKey": "yellow" },
+    { "id": "spots", "tags": ["spots"], "labelKey": "spots" },
+    { "id": "hole", "tags": ["hole"], "labelKey": "hole" },
+    { "id": "white", "tags": ["white", "insect"], "labelKey": "white" }
+  ]
+}
