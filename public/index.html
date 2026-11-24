@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1b6b2f">
+<title>కృషి వాయిస్ — Chilli Advisor</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main>
+  <header>
+    <h1 id="title"><span aria-hidden="true">🌶️</span> <span id="appTitle">కృషి వాయిస్</span></h1>
+  </header>
+
+  <div class="banner" id="voiceBanner" role="status" hidden></div>
+  <div class="banner warn" id="noiseWarn" role="status" hidden></div>
+
+  <div class="langs" id="langs" role="group" aria-label="Language"></div>
+
+  <div class="mic-wrap">
+    <button id="mic" type="button" aria-label="Tap to speak">🎤</button>
+    <div class="meter" aria-hidden="true"><span id="meterBar"></span></div>
+  </div>
+
+  <div id="status" role="status" aria-live="polite">…</div>
+
+  <div class="badge" id="reviewBadge" hidden>⚠</div>
+
+  <div id="tags" aria-label="What I understood"></div>
+
+  <div id="log" aria-live="polite"></div>
+
+  <div id="result"></div>
+
+  <div id="confirm" class="confirm" role="group" aria-label="Yes or no">
+    <button type="button" data-answer="yes" class="yes" aria-label="Yes">✔</button>
+    <button type="button" data-answer="no" class="no" aria-label="No">✖</button>
+  </div>
+
+  <p class="cards-prompt" id="cardsPrompt" hidden></p>
+  <div id="cards" class="cards" role="group" aria-label="Problem pictures"></div>
+
+  <div id="follow" class="follow">
+    <button type="button" data-cmd="repeat" id="followRepeat">↻</button>
+    <button type="button" data-cmd="new" id="followNew">＋</button>
+    <button type="button" data-cmd="slower" id="followSlower">🐢</button>
+  </div>
+
+  <div id="rem"></div>
+
+  <div id="dev"><a href="#dev" id="devLink" aria-label="Developer test">·</a></div>
+
+  <section id="devPanel" hidden>
+    <h2>Developer test</h2>
+    <p class="dev-note">Pre-recorded inputs run through the same pipeline with the microphone skipped.</p>
+    <div id="devButtons"></div>
+    <div id="devLive"></div>
+    <h3>Analytics log</h3>
+    <pre id="devAnalytics"></pre>
+    <button type="button" id="devClear">Clear analytics</button>
+  </section>
+</main>
+<script src="js/core.js"></script>
+<script src="js/speech.js"></script>
+<script src="js/match.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/flow.js"></script>
+</body>
+</html>
