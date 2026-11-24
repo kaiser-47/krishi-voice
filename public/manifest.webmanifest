@@ -1,0 +1,18 @@
+{
+  "name": "కృషి వాయిస్ — Chilli Advisor",
+  "short_name": "కృషి వాయిస్",
+  "description": "Voice-first chilli crop advisory for small farmers in Andhra Pradesh and Telangana. Speak a problem, hear a short answer.",
+  "lang": "te",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fbfaf5",
+  "theme_color": "#1b6b2f",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
