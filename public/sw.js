@@ -3,7 +3,7 @@
 /* App shell + JSON + audio cache so the prototype works offline.
    /api/* is never cached: the LLM proxy needs the network. */
 
-const CACHE = 'krishi-voice-v2';
+const CACHE = 'krishi-voice-v3';
 const SHELL = [
   './',
   './index.html',
@@ -11,6 +11,7 @@ const SHELL = [
   './js/core.js',
   './js/speech.js',
   './js/match.js',
+  './js/ui.js',
   './js/flow.js',
   './manifest.webmanifest',
   './data/i18n.json',
