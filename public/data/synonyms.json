@@ -1,0 +1,92 @@
+{
+  "_note": "Local names and symptom words. Adding a synonym, a stage, a district or a voice command needs only an edit here. Names map straight to a knowledge-base entry id.",
+  "names": {
+    "thrips": "thrips",
+    "tamara purugu": "thrips",
+    "pachcha purugu": "thrips",
+    "paccha purugu": "thrips",
+    "tamara": "thrips",
+    "తామర": "thrips",
+    "తామర పురుగు": "thrips",
+    "పచ్చ పురుగు": "thrips",
+    "తామర దోమ": "thrips",
+    "थ्रिप्स": "thrips",
+
+    "mites": "mites",
+    "nalli": "mites",
+    "erra nalli": "mites",
+    "red spider": "mites",
+    "నల్లి": "mites",
+    "ఎర్ర నల్లి": "mites",
+    "माइट": "mites",
+    "मकड़ी": "mites",
+    "लाल मकड़ी": "mites",
+
+    "leaf curl": "leaf-curl-virus",
+    "virus": "leaf-curl-virus",
+    "vairas": "leaf-curl-virus",
+    "ఆకుముడత": "leaf-curl-virus",
+    "ఆకు ముడత": "leaf-curl-virus",
+    "వైరస్": "leaf-curl-virus",
+    "वायरस": "leaf-curl-virus",
+    "पत्ती मरोड़": "leaf-curl-virus",
+
+    "anthracnose": "anthracnose",
+    "dieback": "anthracnose",
+    "fruit rot": "anthracnose",
+    "kaya kullu": "anthracnose",
+    "కాయ కుళ్లు": "anthracnose",
+    "एन्थ्रेक्नोज": "anthracnose",
+
+    "borer": "fruit-borer",
+    "fruit borer": "fruit-borer",
+    "kaya tulchu": "fruit-borer",
+    "కాయతొలుచు": "fruit-borer",
+    "కాయ తొలుచు": "fruit-borer",
+    "फल छेदक": "fruit-borer"
+  },
+  "symptoms": {
+    "curl": ["curl", "curling", "curled", "muduru", "mudat", "ముడుచు", "ముడత", "ముడి", "मुड़", "सिकुड़"],
+    "up": ["upward", "paiki", "పైకి", "ఊర్ధ్వ", "ऊपर की ओर", "ऊपर"],
+    "down": ["downward", "kindiki", "కిందికి", "క్రిందికి", "नीचे की ओर", "नीचे"],
+    "insect": ["insect", "insects", "purugu", "purugulu", "పురుగు", "పురుగులు", "కీड़ा", "कीड़े", "कीट"],
+    "white": ["white", "tella", "తెల్ల", "सफेद", "सफ़ेद"],
+    "yellow": ["yellow", "pasupu", "పసుపు", "पीला", "पीली", "पीले"],
+    "spots": ["spot", "spots", "machha", "machhalu", "మచ్చ", "మచ్చలు", "धब्बा", "धब्बे"],
+    "fruit": ["fruit", "fruits", "kaya", "kayalu", "కాయ", "కాయలు", "ఫల", "ఫल", "फलों"],
+    "hole": ["hole", "holes", "rampam", "randhram", "రంధ్ర", "రంధ్రాలు", "छेद"],
+    "caterpillar": ["caterpillar", "worm", "gongali", "గొంగళి", "इल्ली", "सूंडी"],
+    "stunt": ["stunt", "stunted", "small leaves", "edugudala", "ఎదుగ", "बौना", "बढ़वार"],
+    "bronze": ["bronze", "purple", "red leaves", "erra", "ఎర్ర", "लाल", "बैंगनी"],
+    "rain": ["rain", "rainy", "varsham", "వర్ష", "बारिश", "वर्षा"]
+  },
+  "weather": {
+    "rain": ["rain", "rainy", "varsham", "వర్షం", "बारिश", "वर्षा"],
+    "dry": ["dry", "drought", "endipoyindi", "ఎండిపో", "सूखा", "सूख"],
+    "heat": ["hot", "heat", "veedi", "వేడి", "గర్మి", "गर्मी"],
+    "cold": ["cold", "chali", "చలి", "ठंड"]
+  },
+  "stages": {
+    "seedling": ["seedling", "nursery", "naru", "నారు", "पौध", "नर्सरी"],
+    "flowering": ["flowering", "flowers", "poota", "పూత", "పూలు", "फूल"],
+    "fruiting": ["fruiting", "fruits", "kaya", "కాయలు", "फलों"]
+  },
+  "districts": {
+    "Guntur": ["guntur", "గుంటూరు", "गुंटूर"],
+    "Khammam": ["khammam", "ఖమ్మం", "खम्मम"],
+    "Warangal": ["warangal", "వరంగల్", "वारंगल"],
+    "Prakasam": ["prakasam", "ప్రకాశం", "प्रकाशम"],
+    "Kurnool": ["kurnool", "కర్నూలు", "कुरनूल"],
+    "Krishna": ["krishna", "కృష్ణా", "कृष्णा"],
+    "Nalgonda": ["nalgonda", "నల్గొండ", "नलगोंडा"],
+    "Kadapa": ["kadapa", "కడప", "कडपा"]
+  },
+  "crops": ["chilli", "chili", "chillies", "mirchi", "mirapa", "mirpakaya", "మిరప", "మిర్చి", "मिर्च", "मिर्ची"],
+  "yes": ["avunu", "avnu", "అవును", "haan", "han", "हाँ", "हां", "yes", "yeah", "sare", "సరే", "ok", "okay", "ha"],
+  "no": ["kaadu", "kadu", "కాదు", "nahi", "nahin", "नहीं", "no", "nope"],
+  "commands": {
+    "repeat": ["repeat", "again", "రిపీట్", "మళ్లీ", "మళ్ళీ", "दोबारा", "फिर से"],
+    "new": ["new question", "new problem", "another question", "కొత్త ప్రశ్న", "కొత్త సమస్య", "नया सवाल", "नई समस्या"],
+    "slower": ["slower", "slow", "నెమ్మదిగా", "धीरे", "धीरे बोलो"]
+  }
+}
