@@ -1,0 +1,15 @@
+{
+  "name": "krishi-voice-chilli",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Voice-first chilli crop advisory PWA prototype for smallholder farmers in Andhra Pradesh and Telangana",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "icons": "node scripts/make-icons.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
