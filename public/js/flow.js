@@ -15,6 +15,7 @@ function guard() {
 
 function abortAll() {
   state.aborted = true;
+  state.busy = false;
   state.session += 1;
   if (Mic.current) Mic.current.finish({ error: 'aborted' });
   if ('speechSynthesis' in window) speechSynthesis.cancel();
